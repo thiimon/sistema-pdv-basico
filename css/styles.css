@@ -1,0 +1,158 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2B3133;
+    color: #00B1DB;
+    border-radius: 10px;
+    overflow: auto !important;
+}
+
+/* título da página */
+#titulo {
+    color: #00B1DB;
+    font-size: 45px;
+}
+
+/* lista de produtos disponíveis */
+#lista-produtos {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 15% 15% 15%;
+    gap: 10px;
+}
+
+.lista-produtos-item {
+    border: 3px solid #2D7486;
+    text-align: center;
+}
+
+/* comanda */
+#comanda {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    gap: 10px;
+    padding: 10px;
+    border: 3px solid #2D7486;
+    max-width: 40%;
+    max-height: 70%;
+    overflow-y: auto; 
+}
+
+.comanda-titulo {
+    flex-basis: 100%; 
+    margin: 0;
+}
+
+.comanda-item {
+    flex: 0 1 30%; 
+    border: 3px dotted #2D7486;
+    text-align: right;
+}
+
+/* preços e parágrafos */
+.precos, p{
+    color: #80e6ff;
+    font-weight: bold;
+}
+
+/* botão de remover itens da comanda individualmente */
+.botao-remover {
+    padding: 10px;
+    border: solid;
+    color: #DB4242;
+}
+
+/* botão de limpar comanda */
+#botao-limpar {
+    position: fixed;
+    padding: 10px;
+    border: solid;
+    color: #DB4242;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* botão de imprimir comanda */
+#botao-imprimir-comanda {
+    position: fixed;
+    padding: 10px;
+    border: solid;
+    color: #72db42;
+    bottom: 10px;
+    right: 150px;
+}
+
+/* botão de tela cheia */
+#botao-telacheia {
+    position: fixed;
+    padding: 10px;
+    border: solid;
+    color: #80e6ff;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* botão para adicionar produtos por quantidade */
+.botao-quantidade {
+    padding: 5px;
+    border: solid;
+    color: #42db5b;
+}
+
+/* caixa de texto para inserir a quantidade */
+.quantidade {
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* valor total */
+#total {
+    display: grid;
+    position: fixed;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    padding: 10px;
+    gap: 10px;
+    border: 3px solid #2D7486;
+    bottom: 40px;
+    right: 10px;
+}
+
+/* links */
+a {
+    color: #80e6ff;
+    text-decoration: none;
+}
+
+/* o coração que fica no rodapé */
+#coracao {
+    color: #DB4242;
+}
+
+/* rodapé */
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* para impressão */
+/* @media print {
+    body {
+      visibility: hidden;
+    }
+
+    #comanda {
+        visibility: visible;
+        position: absolute;
+        max-width: 8.3in;
+        border: unset;
+        overflow-y: unset; 
+    }
+
+    .botao-remover {
+        visibility: hidden;
+    }
+  } */
