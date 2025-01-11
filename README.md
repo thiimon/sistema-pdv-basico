@@ -5,6 +5,8 @@ Meu **primeiro projeto como desenvolvedor**, feito como atividade de Desenvolvim
 
 Talvez eu crie uma outra versão desse sistema, mas em JavaScript puro.
 
+**Vá até a seção "Futuramente" para ver o repositório atualizado desse projeto**
+
 ---
 
 # Funções
@@ -21,11 +23,13 @@ Talvez eu crie uma outra versão desse sistema, mas em JavaScript puro.
 ---
 
 # Futuramente
-- Acumular a quantidade de itens ao invés de adicionar um por um
+- ~~Acumular a quantidade de itens ao invés de adicionar um por um~~
 
-- Refinar o código de impressão da comanda
+- ~~Refinar o código de impressão da comanda~~
 
-- Deixar o sistema bonito e responsivo com Bootstrap
+- ~~Deixar o sistema bonito e responsivo com Bootstrap~~
+
+*Essas funções já foram implementadas em um outro projeto de Desenvolvimento Web que fiz com um amigo: https://github.com/Guilherme-Caua/projeto_dw*
 
 ---
 
